@@ -3,6 +3,11 @@
   src: url("../fonts/Helvetica-Normal.ttf") format("truetype");
 }
 
+@font-face {
+  font-family: "Oxygen-Bold";
+  src: url("../fonts/Oxygen-Bold.ttf") format("truetype");
+}
+
 *,
 *::before,
 *::after {
@@ -33,6 +38,10 @@ body {
 ::-webkit-scrollbar-thumb {
   background: #888;
   border-radius: 8px;
+}
+
+.oxygen-font {
+  font-family: Oxygen-Bold;
 }
 
 /* Handle on hover */
@@ -166,6 +175,9 @@ body {
   }
   .fix-margin-bottom {
     margin-bottom: 60px;
+  }
+  .fix-padding-top-banner {
+    padding-top: 130px !important;
   }
 }
 

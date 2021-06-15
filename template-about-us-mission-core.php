@@ -2,153 +2,85 @@
 /* Template Name: About Us - Mission Core*/
 get_header();
 ?>
-    <section>
+<section>
         <nav style="position: absolute;" class="navbar navbar-light fixed-top content-container pt-0">
-            <div class="row" style="justify-content: space-between; padding-top: 1%;">
-                <a class="navbar-brand col-lg-4 col-6">
-                    <img class="img-fluid" src="<?php bloginfo('template_directory');?>/image/BTG_logo_white.png">
-                </a>
-                <div class="navbar-toggler col-lg-2 col-4" style="border: none; text-align: end;">
-                    <img src="<?php bloginfo('template_directory');?>/image/search_icon.png" style="width: 23%; padding-top: 20px;">&nbsp;&nbsp;
-                    <img data-toggle="collapse" data-target="#navbarSupportedContent"
-                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
-                        style="width: 30%; padding-top: 20px;" src="<?php bloginfo('template_directory');?>/image/menu_lines.png">
-                </div>
+          <div class="row" style="justify-content: space-between; padding-top: 1%;">
+            <a href="<?php echo get_site_url(); ?>" class="navbar-brand col-lg-4 col-6">
+              <img class="img-fluid" src="<?php bloginfo('template_directory');?>/image/BTG_logo_white.png">
+            </a>
+            <div class="navbar-toggler col-lg-2 col-4" style="border: none; text-align: end;">
+              <img src="<?php bloginfo('template_directory');?>/image/search_icon.png" style="width: 23%; padding-top: 20px;">&nbsp;&nbsp;
+              <img data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="width: 30%; padding-top: 20px;" src="<?php bloginfo('template_directory');?>/image/menu_lines.png">
+            </div>
+          </div>
         </nav>
         <div class="collapse navbar-collapse dropdownNavbar" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li style="padding: 0 15px; background: #2CACE3;" class="nav-item active">
-                    <a class="nav-link">Menu <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" style="padding-left: 15px; padding-right: 15px;"
-                        id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        About us
-                    </a>
-                    <div class="dropdown-menu fix-dropdown" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item">Mission & Core Values</a>
-                        <a class="dropdown-item">Team Members</a>
-                        <a class="dropdown-item">Partners</a>
-                        <a class="dropdown-item">Lab Accreditations & Licenses</a>
-                    </div>
-                </li>
-                <li class="nav-item dropdown">
-                    <a style="padding-left: 15px; padding-right: 15px;" class="nav-link dropdown-toggle"
-                        id="navbarDropdownMenuLink2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        End-to-End Solutions
-                    </a>
-                    <div class="dropdown-menu fix-dropdown" aria-labelledby="navbarDropdownMenuLink2">
-                        <a class="dropdown-item">Team Members</a>
-                    </div>
-                </li>
-                <li class="nav-item dropdown">
-                    <a style="padding-left: 15px; padding-right: 15px;" class="nav-link dropdown-toggle"
-                        id="navbarDropdownMenuLink3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        NGS Clinical Lab
-                    </a>
-                    <div class="dropdown-menu fix-dropdown" aria-labelledby="navbarDropdownMenuLink3">
-                        <a class="dropdown-item">Team Members</a>
-                    </div>
-                </li>
-                <li class="nav-item dropdown">
-                    <a style="padding-left: 15px; padding-right: 15px;" class="nav-link dropdown-toggle"
-                        id="navbarDropdownMenuLink3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Clinical Interpretation Services
-                    </a>
-                    <div class="dropdown-menu fix-dropdown" aria-labelledby="navbarDropdownMenuLink3">
-                        <a class="dropdown-item">Team Members</a>
-                    </div>
-                </li>
-                <li class="nav-item dropdown">
-                    <a style="padding-left: 15px; padding-right: 15px;" class="nav-link dropdown-toggle"
-                        id="navbarDropdownMenuLink4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Contact us
-                    </a>
-                    <div class="dropdown-menu fix-dropdown" aria-labelledby="navbarDropdownMenuLink4">
-                        <a class="dropdown-item">Team Members</a>
-                    </div>
-                </li>
-            </ul>
+          <ul class="navbar-nav mr-auto">
+            <li style="padding: 0 15px; background: #2CACE3;" class="nav-item active">
+              <a class="nav-link">Menu <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" style="padding-left: 15px; padding-right: 15px; cursor: pointer" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                About us
+              </a>
+              <div class="dropdown-menu fix-dropdown" aria-labelledby="navbarDropdownMenuLink">
+                <a href="<?php echo get_site_url(); ?>/about-us-mission-core" class="dropdown-item">Mission & Core Values</a>
+                <a href="<?php echo get_site_url(); ?>/about-us-founder-team" class="dropdown-item">Team Members</a>
+                <a class="dropdown-item">Partners</a>
+                <a class="dropdown-item">Lab Accreditations & Licenses</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a style="padding-left: 15px; padding-right: 15px;" class="nav-link dropdown-toggle" id="navbarDropdownMenuLink2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                End-to-End Solutions
+              </a>
+              <div class="dropdown-menu fix-dropdown" aria-labelledby="navbarDropdownMenuLink2">
+                <a href="<?php echo get_site_url(); ?>/ends-to-ends-solution" class="dropdown-item">End-to-End Solutions</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a style="padding-left: 15px; padding-right: 15px;" class="nav-link dropdown-toggle" id="navbarDropdownMenuLink3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                NGS Clinical Lab
+              </a>
+              <div class="dropdown-menu fix-dropdown" aria-labelledby="navbarDropdownMenuLink3">
+                <a href="<?php echo get_site_url(); ?>/ngs-clinical-lab" class="dropdown-item">NGS Clinical Lab</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a style="padding-left: 15px; padding-right: 15px;" class="nav-link dropdown-toggle" id="navbarDropdownMenuLink3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Clinical Interpretation Services
+              </a>
+              <div class="dropdown-menu fix-dropdown" aria-labelledby="navbarDropdownMenuLink3">
+                <a class="dropdown-item">Team Members</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a style="padding-left: 15px; padding-right: 15px;" class="nav-link dropdown-toggle" id="navbarDropdownMenuLink4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Contact us
+              </a>
+              <div class="dropdown-menu fix-dropdown" aria-labelledby="navbarDropdownMenuLink4">
+                <a class="dropdown-item">Team Members</a>
+              </div>
+            </li>
+          </ul>
         </div>
     </section>
     <section>
         <div>
             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators">
-                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                </ol>
                 <div class="carousel-inner">
                     <div class="carousel-item active"
-                        style="background-image: url(<?php bloginfo('template_directory');?>/image/banner1.png); background-repeat: no-repeat; background-size: cover; background-position: center; height: 500px;">
+                        style="background-image: url(<?php bloginfo('template_directory');?>/image/mission_banner.png); background-repeat: no-repeat; background-size: cover; background-position: center; height: 550px;">
                         <div class="content-container pt-0">
-                            <div style="text-align: end; padding-top: 130px;">
-                                <div style="margin-bottom: 20px;">
-                                    <img class="img-width" src="<?php bloginfo('template_directory');?>/image/mycovscan_logo.png" style="width: 33%;">
-                                </div>
-                                <div style="color: #fff; font-weight: 500; font-size: 35px; margin-bottom: 20px;">
-                                    COVID-19 Testing <br>
-                                    through Breakthrough Genomics
-                                </div>
-                                <div style="color: #C64C9C;">
-                                    EXPLORE ALL OUR TURN-KEY SOLUTIONS
-                                    <span><img src="<?php bloginfo('template_directory');?>/image/arrow_magenta.png" style="width: 40px;"></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item"
-                        style="background-image: url(<?php bloginfo('template_directory');?>/image/banner2.png); background-repeat: no-repeat; background-size: cover; background-position: center; height: 500px;">
-                        <div class="content-container pt-0">
-                            <div class="fix-width"
-                                style="padding-top: 130px; width: 35%; margin-left: auto; margin-right: 0;">
-                                <div style="margin-bottom: 20px; font-size: 40px; font-weight: 500;">
-                                    Diagnose accurately.<br>
-                                    Care better
-                                </div>
-                                <div style="color: #C64C9C; margin-bottom: 20px;">
-                                    END THE DISEASE DIAGNOSIS <br>
-                                    FOR PATIENTS IN ONE STEP<span><img src="<?php bloginfo('template_directory');?>/image/arrow_magenta.png"
-                                            style="width: 40px;"></span>
-                                </div>
-                                <div style="color: #2CACE3; text-align: end;">
-                                    <span><img src="<?php bloginfo('template_directory');?>/image/arrow_blue.png" style="width: 40px;"></span>
-                                    SCHEDULE CONSULT
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item"
-                        style="background-image: url(<?php bloginfo('template_directory');?>/image/virtual_geneticist_banner.png); background-repeat: no-repeat; background-size: cover; background-position: center; height: 500px;">
-                        <div class="content-container pt-0">
-                            <div class="fix-padding-top" style="padding-top: 160px;">
-                                <div class="fix-display mb-md-3" style="display: flex;">
-                                    <img class="img-width-2" src="<?php bloginfo('template_directory');?>/image/virtual_geneticist_logo.png"
-                                        style="width: 30%; ">&nbsp;&nbsp;&nbsp;
-                                    <div style="font-weight: 600; font-size: 35px;">
-                                        One platform.<br>
-                                        Many Applications<br>
-                                        tailored to your needs
-                                    </div>
-                                </div>
-                                <div style="color: #C64C9C;">
-                                    CONNECT YOUR GENOMIC EXPERTS TO BTG PLAFORM<br>
-                                    TO STREAMLINE LAB TO CLINIC REPORTING
-                                    <span><img src="<?php bloginfo('template_directory');?>/image/arrow_magenta.png" style="width: 40px;"></span>
+                            <div class="fix-padding-top-banner" style="text-align: end; padding-top: 200px; padding-right: 20%">
+                                <div style="color: #fff; font-weight: 500; font-size: 45px; margin-bottom: 20px;">
+                                    Breakthrough Genomics. <br>
+                                    We help you to break through the noise.
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                </a>
             </div>
         </div>
     </section>
@@ -166,15 +98,10 @@ get_header();
         </td>
         <td>
           <p class="table-content-text">
-            Breakthrough Genomics has been on a mission to enable Precision Care experiences at scale. We
-            serve
-            providers and clinical labs that want to offer the state-of-the-art solutions in clinical
-            genomics and improve the care
-            outcomes of their communities.<br>
-            In the COVID-pandemic era, care teams adopted new technologies and solutions in order to serve
-            better our communities. We aim to be part of this transformation, and help our providers to
-            deploy high-quality turnkey
-            solutions and avoid the market noise.
+            Breakthrough Genomics has been on a mission to <strong>enable Precision Health experiences at scale</strong>. We serve providers and clinical labs that want to offer the state-of-the-art solutions in clinical genomics and improve the care outcomes of their communities.<br><br>
+            In the COVID-pandemic era, providers had to find new trusted technology partners, integrate their solutions into their workflows, and continue to care. We have selected as a trusted partner. We serve providers across California to deploy high-quality, high-value solutions and avoid the market noise. Read our COVID success story here.<br><br>
+            Our goal is to continue on this path. Our mission is to offer high-quality, innovative solutions that enable all care teams and health systems to uptake new technology and offer better services that improve outcomes and revenues.<br><br>
+            Our team with deep understanding of Genomics and Precision Medicine brings together expertise in Clinical Lab, AI, and Health IT to deliver what you and your patients deserve - a better healthcare.
           </p>
           <a href="#" style="padding-left: 20px;" class="read-more">
             Read our COVID success story here <span style="margin-left: 4px;"><img style="width: 25px;"
@@ -194,7 +121,6 @@ get_header();
         <td>
           <p class="table-content-text">
             Shared vision<br>
-            Deep understanding of the problem<br>
             Cutting Edge Technology<br>
             Solution-oriented Team<br>
             Flexible and dynamic

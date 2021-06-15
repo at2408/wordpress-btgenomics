@@ -2,76 +2,69 @@
 /*Template Name: NGS Clinical Labs*/
 get_header();
 ?>
-
-  <section>
-    <nav style="position: absolute;" class="navbar navbar-light fixed-top content-container pt-0">
-        <div class="row" style="justify-content: space-between; padding-top: 1%;">
-            <a class="navbar-brand col-lg-4 col-6">
-                <img class="img-fluid" src="<?php bloginfo('template_directory');?>/image/BTG_logo_white.png">
+<section>
+        <nav style="position: absolute;" class="navbar navbar-light fixed-top content-container pt-0">
+          <div class="row" style="justify-content: space-between; padding-top: 1%;">
+            <a href="<?php echo get_site_url(); ?>" class="navbar-brand col-lg-4 col-6">
+              <img class="img-fluid" src="<?php bloginfo('template_directory');?>/image/BTG_logo_white.png">
             </a>
             <div class="navbar-toggler col-lg-2 col-4" style="border: none; text-align: end;">
-                <img src="<?php bloginfo('template_directory');?>/image/search_icon.png" style="width: 23%; padding-top: 20px;">&nbsp;&nbsp;
-                <img data-toggle="collapse" data-target="#navbarSupportedContent"
-                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
-                    style="width: 30%; padding-top: 20px;" src="<?php bloginfo('template_directory');?>/image/menu_lines.png">
+              <img src="<?php bloginfo('template_directory');?>/image/search_icon.png" style="width: 23%; padding-top: 20px;">&nbsp;&nbsp;
+              <img data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="width: 30%; padding-top: 20px;" src="<?php bloginfo('template_directory');?>/image/menu_lines.png">
             </div>
-    </nav>
-    <div class="collapse navbar-collapse dropdownNavbar" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
+          </div>
+        </nav>
+        <div class="collapse navbar-collapse dropdownNavbar" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
             <li style="padding: 0 15px; background: #2CACE3;" class="nav-item active">
-                <a class="nav-link">Menu <span class="sr-only">(current)</span></a>
+              <a class="nav-link">Menu <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" style="padding-left: 15px; padding-right: 15px;"
-                    id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    About us
-                </a>
-                <div class="dropdown-menu fix-dropdown" aria-labelledby="navbarDropdownMenuLink">
-                    <a class="dropdown-item">Mission & Core Values</a>
-                    <a class="dropdown-item">Team Members</a>
-                    <a class="dropdown-item">Partners</a>
-                    <a class="dropdown-item">Lab Accreditations & Licenses</a>
-                </div>
+              <a class="nav-link dropdown-toggle" style="padding-left: 15px; padding-right: 15px; cursor: pointer" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                About us
+              </a>
+              <div class="dropdown-menu fix-dropdown" aria-labelledby="navbarDropdownMenuLink">
+                <a href="<?php echo get_site_url(); ?>/about-us-mission-core" class="dropdown-item">Mission & Core Values</a>
+                <a href="<?php echo get_site_url(); ?>/about-us-founder-team" class="dropdown-item">Team Members</a>
+                <a class="dropdown-item">Partners</a>
+                <a class="dropdown-item">Lab Accreditations & Licenses</a>
+              </div>
             </li>
             <li class="nav-item dropdown">
-                <a style="padding-left: 15px; padding-right: 15px;" class="nav-link dropdown-toggle"
-                    id="navbarDropdownMenuLink2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    End-to-End Solutions
-                </a>
-                <div class="dropdown-menu fix-dropdown" aria-labelledby="navbarDropdownMenuLink2">
-                    <a class="dropdown-item">Team Members</a>
-                </div>
+              <a style="padding-left: 15px; padding-right: 15px;" class="nav-link dropdown-toggle" id="navbarDropdownMenuLink2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                End-to-End Solutions
+              </a>
+              <div class="dropdown-menu fix-dropdown" aria-labelledby="navbarDropdownMenuLink2">
+                <a href="<?php echo get_site_url(); ?>/ends-to-ends-solution" class="dropdown-item">End-to-End Solutions</a>
+              </div>
             </li>
             <li class="nav-item dropdown">
-                <a style="padding-left: 15px; padding-right: 15px;" class="nav-link dropdown-toggle"
-                    id="navbarDropdownMenuLink3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    NGS Clinical Lab
-                </a>
-                <div class="dropdown-menu fix-dropdown" aria-labelledby="navbarDropdownMenuLink3">
-                    <a class="dropdown-item">Team Members</a>
-                </div>
+              <a style="padding-left: 15px; padding-right: 15px;" class="nav-link dropdown-toggle" id="navbarDropdownMenuLink3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                NGS Clinical Lab
+              </a>
+              <div class="dropdown-menu fix-dropdown" aria-labelledby="navbarDropdownMenuLink3">
+                <a href="<?php echo get_site_url(); ?>/ngs-clinical-lab" class="dropdown-item">NGS Clinical Lab</a>
+              </div>
             </li>
             <li class="nav-item dropdown">
-                <a style="padding-left: 15px; padding-right: 15px;" class="nav-link dropdown-toggle"
-                    id="navbarDropdownMenuLink3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Clinical Interpretation Services
-                </a>
-                <div class="dropdown-menu fix-dropdown" aria-labelledby="navbarDropdownMenuLink3">
-                    <a class="dropdown-item">Team Members</a>
-                </div>
+              <a style="padding-left: 15px; padding-right: 15px;" class="nav-link dropdown-toggle" id="navbarDropdownMenuLink3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Clinical Interpretation Services
+              </a>
+              <div class="dropdown-menu fix-dropdown" aria-labelledby="navbarDropdownMenuLink3">
+                <a class="dropdown-item">Team Members</a>
+              </div>
             </li>
             <li class="nav-item dropdown">
-                <a style="padding-left: 15px; padding-right: 15px;" class="nav-link dropdown-toggle"
-                    id="navbarDropdownMenuLink4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Contact us
-                </a>
-                <div class="dropdown-menu fix-dropdown" aria-labelledby="navbarDropdownMenuLink4">
-                    <a class="dropdown-item">Team Members</a>
-                </div>
+              <a style="padding-left: 15px; padding-right: 15px;" class="nav-link dropdown-toggle" id="navbarDropdownMenuLink4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Contact us
+              </a>
+              <div class="dropdown-menu fix-dropdown" aria-labelledby="navbarDropdownMenuLink4">
+                <a class="dropdown-item">Team Members</a>
+              </div>
             </li>
-        </ul>
-    </div>
-</section>
+          </ul>
+        </div>
+    </section>
 <section>
     <div>
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
