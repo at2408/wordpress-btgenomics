@@ -251,53 +251,73 @@ get_header();
     <h2 class="content-title">
       Who is using our services
     </h2>
-    <!-- <div class="row client"> -->
-    <div class="">
-      <div class="container-fluid p-0">
-        <img style="width: 100%;" src="<?php bloginfo('template_directory');?>/image/services.JPG" alt="">
+    <div class="row client">
+      <div class="auto-feature-clients-start">
+        <a class="featured-clients-container" style="display: flex;width:20%">
+          <div class="feature-image"
+            style="filter: grayscale(100%); background-image: url('https://secureservercdn.net/198.71.233.235/f7r.b60.myftpupload.com/wp-content/uploads/2018/09/novogene.jpg');"></div>
+        </a>
+        <a class="featured-clients-container" style="display: flex;width:20%">
+          <div class="feature-image"
+            style="filter: grayscale(100%); background-image: url('https://secureservercdn.net/198.71.233.235/f7r.b60.myftpupload.com/wp-content/uploads/2018/09/repogene.jpg');"></div>
+        </a>
+        <a class="featured-clients-container" style="display: flex;width:20%">
+          <div class="feature-image"
+            style="filter: grayscale(100%); background-image: url('https://secureservercdn.net/198.71.233.235/f7r.b60.myftpupload.com/wp-content/uploads/2019/10/NGXBIO_logo_One_Stop_Shop-001.jpg');"></div>
+        </a>
+        <a class="featured-clients-container" style="display: flex;width:20%">
+          <div class="feature-image"
+            style="filter: grayscale(100%); background-image: url('https://secureservercdn.net/198.71.233.235/f7r.b60.myftpupload.com/wp-content/uploads/2018/09/fullgene.jpg"></div>
+        </a>
+        <a class="featured-clients-container" style="display: flex;width:20%">
+          <div class="feature-image"
+            style="filter: grayscale(100%); background-image: url('https://secureservercdn.net/198.71.233.235/f7r.b60.myftpupload.com/wp-content/uploads/2019/10/admera_health_231px-001.jpg');"></div>
+        </a>
+        <a class="featured-clients-container" style="display: flex;width:20%">
+          <div class="feature-image"
+            style="filter: grayscale(100%); background-image: url('https://secureservercdn.net/198.71.233.235/f7r.b60.myftpupload.com/wp-content/uploads/2018/09/cedarSanai.jpg');"></div>
+        </a>
+        <a class="featured-clients-container" style="display: flex;width:20%%">
+          <div class="feature-image"
+            style="filter: grayscale(100%); background-image: url('https://secureservercdn.net/198.71.233.235/f7r.b60.myftpupload.com/wp-content/uploads/2018/09/chla.jpg');"></div>
+        </a>
+        <a class="featured-clients-container" style="display: flex;width:20%">
+          <div class="feature-image"
+            style="filter: grayscale(100%); background-image: url('https://secureservercdn.net/198.71.233.235/f7r.b60.myftpupload.com/wp-content/uploads/2018/09/ubc.jpg');"></div>
+        </a>
+        <a class="featured-clients-container" style="display: flex;width:20%">
+          <div class="feature-image"
+            style="filter: grayscale(100%); background-image: url('https://secureservercdn.net/198.71.233.235/f7r.b60.myftpupload.com/wp-content/uploads/2018/09/ucla.jpg');"></div>
+        </a>
+        <a class="featured-clients-container" style="display: flex;width:20%">
+          <div class="feature-image"
+            style="filter: grayscale(100%); background-image: url('https://secureservercdn.net/198.71.233.235/f7r.b60.myftpupload.com/wp-content/uploads/2018/09/usc.jpg');"></div>
+        </a>
+        <a class="featured-clients-container" style="display: flex;width:16%">
+          <div class="feature-image"
+            style="filter: grayscale(100%); background-image: url('https://secureservercdn.net/198.71.233.235/f7r.b60.myftpupload.com/wp-content/uploads/2019/10/EpigeneticsRX-logo-main-001.jpg');"></div>
+        </a>
+        <a class="featured-clients-container" style="display: flex;width:20%">
+          <div class="feature-image"
+            style="filter: grayscale(100%); background-image: url('https://secureservercdn.net/198.71.233.235/f7r.b60.myftpupload.com/wp-content/uploads/2019/03/alinaHealth.jpg');"></div>
+        </a>
+        <a class="featured-clients-container" style="display: flex;width:20%">
+          <div class="feature-image"
+            style="filter: grayscale(100%); background-image: url('https://secureservercdn.net/198.71.233.235/f7r.b60.myftpupload.com/wp-content/uploads/2019/03/ucsf.jpg');"></div>
+        </a>
+        <a class="featured-clients-container" style="display: flex;width:20%">
+          <div class="feature-image"
+            style="filter: grayscale(100%); background-image: url('https://secureservercdn.net/198.71.233.235/f7r.b60.myftpupload.com/wp-content/uploads/2019/03/baylorCollegeOfMedicine.jpg');"></div>
+        </a>
+        <a class="featured-clients-container" style="display: flex;width:20%">
+          <div class="feature-image"
+            style="filter: grayscale(100%); background-image: url('https://secureservercdn.net/198.71.233.235/f7r.b60.myftpupload.com/wp-content/uploads/2019/10/DDC-Lab-logo-white-001.jpg');"></div>
+        </a>
+        <a class="featured-clients-container" style="display: flex;width:20%">
+          <div class="feature-image"
+            style="filter: grayscale(100%); background-image: url('https://secureservercdn.net/198.71.233.235/f7r.b60.myftpupload.com/wp-content/uploads/2019/03/macrogen.jpg');"></div>
+        </a>
       </div>
-      <!-- <div class="auto-feature-clients-start">
-          <a class="featured-clients-container" style="display: flex;width: 20%">
-            <div class="feature-image"
-              style="background-image: url('https://savvycom.vn/wp-content/uploads/2018/12/1-4.png');"></div>
-          </a>
-          <a class="featured-clients-container" style="display: flex;width: 20%">
-            <div class="feature-image"
-              style="background-image: url('https://savvycom.vn/wp-content/uploads/2018/12/1-4.png');"></div>
-          </a>
-          <a class="featured-clients-container" style="display: flex;width: 20%">
-            <div class="feature-image"
-              style="background-image: url('https://savvycom.vn/wp-content/uploads/2018/12/1-4.png');"></div>
-          </a>
-          <a class="featured-clients-container" style="display: flex;width: 20%">
-            <div class="feature-image"
-              style="background-image: url('https://savvycom.vn/wp-content/uploads/2018/12/1-4.png');"></div>
-          </a>
-          <a class="featured-clients-container" style="display: flex;width: 20%">
-            <div class="feature-image"
-              style="background-image: url('https://savvycom.vn/wp-content/uploads/2018/12/1-4.png');"></div>
-          </a>
-          <a class="featured-clients-container" style="display: flex;width: 20%">
-            <div class="feature-image"
-              style="background-image: url('https://savvycom.vn/wp-content/uploads/2018/12/1-4.png');"></div>
-          </a>
-          <a class="featured-clients-container" style="display: flex;width: 20%">
-            <div class="feature-image"
-              style="background-image: url('https://savvycom.vn/wp-content/uploads/2018/12/1-4.png');"></div>
-          </a>
-          <a class="featured-clients-container" style="display: flex;width: 20%">
-            <div class="feature-image"
-              style="background-image: url('https://savvycom.vn/wp-content/uploads/2018/12/1-4.png');"></div>
-          </a>
-          <a class="featured-clients-container" style="display: flex;width: 20%">
-            <div class="feature-image"
-              style="background-image: url('https://savvycom.vn/wp-content/uploads/2018/12/1-4.png');"></div>
-          </a>
-          <a class="featured-clients-container" style="display: flex;width: 20%">
-            <div class="feature-image"
-              style="background-image: url('https://savvycom.vn/wp-content/uploads/2018/12/1-4.png');"></div>
-          </a>
-        </div> -->
     </div>
   </section>
   <div style="clear: both; height: 25px"></div>

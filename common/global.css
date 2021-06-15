@@ -1316,8 +1316,8 @@ a {
 
 .client {
   overflow: hidden;
-  height: 220px;
-  max-height: 220px;
+  /* height: 220px;
+  max-height: 220px; */
 }
 
 .client:before {
