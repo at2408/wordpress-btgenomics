@@ -90,24 +90,27 @@ get_header();
     </section>
 
   <section class="content-container-gray">
-    <h2 class="content-title">
+    <h2 style="margin-bottom: 25px;" class="content-title fix-center">
       CLIA Services
     </h2>
     <div class="end-to-end-container pb-5">
-      <div class="clearfix">
-        <img id="covid-img" style="float: right;" src="<?php bloginfo('template_directory');?>/image/end-to-end.JPG" alt="">
-        <p class="content-text">
-          Our clinical lab is CLIA certified by The Centers for Medicare & Medicaid Services
-          (CMS) and accredited by the College of American Pathologists (CAP) for clinical
-          NGS and Sanger sequencing, and we are routinely instepcted by CAP for
-          accrediations renewal. Our commitment to providing reliable, cost-effective
-          services and high-quality results remain paramount for our CLIA service portfolio.<br>
-          We treat all customer information study-related data, and intellectual propery,
-          with the same degree of care and security that we do for our own. This allows our
-          customers at both top-tier pharmaceutical companies and biothechnology start-
-          ups the flexibility to utilize our regulatore services, while trusting in our
-          commitment to quality and communication.
-        </p>
+      <div class="row justify-content-center">
+        <div class="col-lg-8 col-md-7 col-10">
+          <p style="text-align: justify; padding-right: 15px" class="content-text">
+          Our clinical lab is CLIA certified by The Centers for Medicare & Medicaid Services (CMS) and accredited by the College of American Pathologists (CAP) for clinical NGS and Sanger sequencing, and we are routinely instepcted by CAP for accrediations renewal. Our commitment to providing reliable, cost-effective services and high-quality results remain paramount for our CLIA service portfolio.<br><br>
+          We treat all customer information study-related data, and intellectual propery, with the same degree of care and security that we do for our own. This allows our customers at both top-tier pharmaceutical companies and biothechnology start-ups the flexibility to utilize our regulatore services, while trusting in our commitment to quality and communication.
+          </p>
+        </div>
+        <div class="col-lg-4 col-md-5 col-10" style="background-image: url(<?php bloginfo('template_directory');?>/image/covid_sequencing.png); background-repeat: no-repeat; background-size: cover; background-position: center; height: 260px;">
+          <div style="color: #fff; font-weight: 500; font-size: 23px; padding-left: 15px; padding-top: 37px">
+            High-throughput
+            <div style="font-size: 30px; color: #C64C9C;">COVID-19 Sequencing</div>
+            & Surveillance
+            <div style="color: #2CACE3; margin-top: 10px">Learn more
+            <span><img src="<?php bloginfo('template_directory');?>/image/arrow_banner.png" style="width: 40px;"></span>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </section>
