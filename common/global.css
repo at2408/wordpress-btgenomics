@@ -195,6 +195,9 @@ body {
   .fix-padding-top-banner {
     padding-top: 130px !important;
   }
+  .fix-center {
+    text-align: center !important;
+  }
 }
 
 p {
