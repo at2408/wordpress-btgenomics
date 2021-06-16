@@ -8,7 +8,7 @@
     <!-- Bootstrap CSS -->
     
 
-    <title>Hello world!</title>
+    <title>BTGenomics</title>
 
     <?php wp_head();?>
   </head>

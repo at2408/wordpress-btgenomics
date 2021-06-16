@@ -23,12 +23,12 @@
               <div class="dropdown-menu fix-dropdown" aria-labelledby="navbarDropdownMenuLink">
                 <a href="<?php echo get_site_url(); ?>/about-us-mission-core" class="dropdown-item">Mission & Core Values</a>
                 <a href="<?php echo get_site_url(); ?>/about-us-founder-team" class="dropdown-item">Team Members</a>
-                <a class="dropdown-item">Partners</a>
-                <a class="dropdown-item">Lab Accreditations & Licenses</a>
+                <a href="#" class="dropdown-item">Partners</a>
+                <a href="#" class="dropdown-item">Lab Accreditations & Licenses</a>
               </div>
             </li>
             <li class="nav-item dropdown">
-              <a style="padding-left: 15px; padding-right: 15px;" class="nav-link dropdown-toggle" id="navbarDropdownMenuLink2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <a style="padding-left: 15px; padding-right: 15px; cursor: pointer;" class="nav-link dropdown-toggle" id="navbarDropdownMenuLink2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 End-to-End Solutions
               </a>
               <div class="dropdown-menu fix-dropdown" aria-labelledby="navbarDropdownMenuLink2">
@@ -36,7 +36,7 @@
               </div>
             </li>
             <li class="nav-item dropdown">
-              <a style="padding-left: 15px; padding-right: 15px;" class="nav-link dropdown-toggle" id="navbarDropdownMenuLink3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <a style="padding-left: 15px; padding-right: 15px; cursor: pointer;" class="nav-link dropdown-toggle" id="navbarDropdownMenuLink3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 NGS Clinical Lab
               </a>
               <div class="dropdown-menu fix-dropdown" aria-labelledby="navbarDropdownMenuLink3">
@@ -44,19 +44,19 @@
               </div>
             </li>
             <li class="nav-item dropdown">
-              <a style="padding-left: 15px; padding-right: 15px;" class="nav-link dropdown-toggle" id="navbarDropdownMenuLink3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <a style="padding-left: 15px; padding-right: 15px; cursor: pointer;" class="nav-link dropdown-toggle" id="navbarDropdownMenuLink3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Clinical Interpretation Services
               </a>
               <div class="dropdown-menu fix-dropdown" aria-labelledby="navbarDropdownMenuLink3">
-                <a class="dropdown-item">Team Members</a>
+                <a href="#" class="dropdown-item">Clinical Interpretation Services</a>
               </div>
             </li>
             <li class="nav-item dropdown">
-              <a style="padding-left: 15px; padding-right: 15px;" class="nav-link dropdown-toggle" id="navbarDropdownMenuLink4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <a style="padding-left: 15px; padding-right: 15px; cursor: pointer;" class="nav-link dropdown-toggle" id="navbarDropdownMenuLink4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Contact us
               </a>
               <div class="dropdown-menu fix-dropdown" aria-labelledby="navbarDropdownMenuLink4">
-                <a class="dropdown-item">Team Members</a>
+                <a href="#" class="dropdown-item">Contact us</a>
               </div>
             </li>
           </ul>
@@ -66,9 +66,15 @@
         <div>
             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
-                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                  <li style="background: #C64C9C; color: #fff" data-target="#carouselExampleIndicators" data-slide-to="0" class="active">
+                    <div style="margin-top: -15px; font-size: 14px;">01</div>
+                  </li>
+                  <li style="background: #C64C9C; color: #fff" data-target="#carouselExampleIndicators" data-slide-to="1">
+                    <div style="margin-top: -15px; font-size: 14px;">02</div>
+                  </li>
+                  <li style="background: #C64C9C; color: #fff" data-target="#carouselExampleIndicators" data-slide-to="2">
+                    <div style="margin-top: -15px; font-size: 14px;">03</div>
+                  </li>
                 </ol>
                 <div class="carousel-inner">
                   <div class="carousel-item active" style="background-image: url(<?php bloginfo('template_directory');?>/image/banner1.png); background-repeat: no-repeat; background-size: cover; background-position: center; height: 550px;">
