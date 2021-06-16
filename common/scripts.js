@@ -10929,3 +10929,14 @@ $("#image6").mouseover(function () {
 $("#info6").mouseleave(function () {
     $("#info6").hide();
 })
+
+$(document).ready(function () {
+	$(document).click(function (event) {
+		var click = $(event.target);
+		var _open = $(".navbar-collapse").hasClass("show");
+		console.log(click.hasClass("nav-button"))
+		if (_open === true && !click.hasClass("nav-button") && !click.hasClass("nav-link")) {
+			$(".nav-button").click();
+		}
+	});
+});

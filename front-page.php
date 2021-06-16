@@ -1,13 +1,13 @@
 <?php get_header();?>
 <section>
-        <nav style="position: absolute;" class="navbar navbar-light fixed-top content-container pt-0">
+        <nav style="position: absolute; display: inherit; top: 0; left: 0; z-index: 10; right: 0;" class="navbar navbar-light content-container pt-0">
           <div class="row" style="justify-content: space-between; padding-top: 1%;">
             <a href="<?php echo get_site_url(); ?>" class="navbar-brand col-lg-4 col-6">
               <img  class="img-fluid" src="<?php bloginfo('template_directory');?>/image/BTG_logo_white.png">
             </a>
             <div class="navbar-toggler col-lg-2 col-4" style="border: none; text-align: end;">
               <img src="<?php bloginfo('template_directory');?>/image/search_icon.png" style="width: 23%; padding-top: 20px;">&nbsp;&nbsp;
-              <img data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="width: 30%; padding-top: 20px;" src="<?php bloginfo('template_directory');?>/image/menu_lines.png">
+              <img data-toggle="collapse" class="nav-button" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="width: 30%; padding-top: 20px;" src="<?php bloginfo('template_directory');?>/image/menu_lines.png">
             </div>
           </div>
         </nav>
