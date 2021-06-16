@@ -154,7 +154,17 @@ get_header();
     </h2>
     <div class="end-to-end-container">
       <div class="clearfix">
-        <img id="covid-img" style="float: right;" src="<?php bloginfo('template_directory');?>/image/end-to-end.JPG" alt="">
+        <div style="width: 40%; float: right; position: relative" class="covid-img-container">
+        <img style="width: 100%" src="<?php bloginfo('template_directory');?>/image/end_to_end/covid_sequencing.png" alt="">
+        <div style="position: absolute; top: 10%; left: 5%" class="text-block">
+          <p style="color: #fff; font-weight: 500; font-size: 2vw">High-throughput</p>
+          <p style="color: #c64c9c; font-size: 2vw">COVID-19 SEQUENCING</p>
+          <p style="color: #fff; font-weight: 500; font-size: 2vw">& Surveillance</p>
+          <br>
+          <a href="#" style="color: #2CACE3; font-weight: 500; font-size: 1.5vw">Learn more <span class="ml-3" ><img style="width: 10%" src="<?php bloginfo('template_directory');?>/image/end_to_end/arrow_banner.png" alt=""> </span></a>
+        </div>
+        </div>
+        
         <p class="content-text">
           Our clinical lab is CLIA certified by The Centers for Medicare & Medicaid Services
           (CMS) and accredited by the College of American Pathologists (CAP) for clinical
@@ -168,8 +178,15 @@ get_header();
           commitment to quality and communication.
         </p>
       </div>
-      <div class="shape-wrapper mt-4">
-        <img class="img-responsive mb-4" src="<?php bloginfo('template_directory');?>/image/end-to-end-step.JPG" alt="">
+      <div style="  display: flex; flex-wrap: wrap;" class="shape-wrapper mt-4">
+        <img style="display: flex; width: 12.5%" class="mb-4" src="<?php bloginfo('template_directory');?>/image/end_to_end/arrows_magenta.png" alt="">
+        <img style="display: flex; width: 12.5%" class="mb-4" src="<?php bloginfo('template_directory');?>/image/end_to_end/arrow1.png" alt="">
+        <img style="display: flex; width: 12.5%" class="mb-4" src="<?php bloginfo('template_directory');?>/image/end_to_end/arrow2.png" alt="">
+        <img style="display: flex; width: 12.5%" class="mb-4" src="<?php bloginfo('template_directory');?>/image/end_to_end/arrow4.png" alt="">
+        <img style="display: flex; width: 12.5%" class="mb-4" src="<?php bloginfo('template_directory');?>/image/end_to_end/arrow5.png" alt="">
+        <img style="display: flex; width: 12.5%" class="mb-4" src="<?php bloginfo('template_directory');?>/image/end_to_end/arrow6.png" alt="">
+        <img style="display: flex; width: 12.5%" class="mb-4" src="<?php bloginfo('template_directory');?>/image/end_to_end/arrow7.png" alt="">
+        <img style="display: flex; width: 12.5%" class="mb-4" src="<?php bloginfo('template_directory');?>/image/end_to_end/arrow8.png" alt="">
       </div>
     </div>
   </section>
@@ -180,7 +197,7 @@ get_header();
     <div class="row">
       <div class="col-md-6">
         <div class="clearfix">
-          <img style="float: right;" src="<?php bloginfo('template_directory');?>/image/badge1.JPG" alt="">
+          <img style="float: right; width:20%" class="ml-2" src="<?php bloginfo('template_directory');?>/image/end_to_end/symbol1.png" alt="">
           <p class="features-text">
             Superior data quality that exceeds
             manufacturer's benchmarks
@@ -189,7 +206,7 @@ get_header();
       </div>
       <div class="col-md-6">
         <div class="clearfix">
-          <img style="float: right;" src="<?php bloginfo('template_directory');?>/image/badge2.JPG" alt="">
+          <img style="float: right; width:20%" class="ml-2" src="<?php bloginfo('template_directory');?>/image/end_to_end/symbol3.png" alt="">
           <p class="features-text">
             Custom CLIA Validations to support
             specific clinical trials
@@ -200,7 +217,7 @@ get_header();
     <div class="row mt-2">
       <div class="col-md-6">
         <div class="clearfix">
-          <img style="float: right;" src="<?php bloginfo('template_directory');?>/image/badge3.JPG" alt="">
+          <img style="float: right; width:20%" class="ml-2" src="<?php bloginfo('template_directory');?>/image/end_to_end/symbol2.png" alt="">
           <p class="features-text">
             Ph.D.-level support during the entire
             project, including free consultations
@@ -209,7 +226,7 @@ get_header();
       </div>
       <div class="col-md-6">
         <div class="clearfix">
-          <img style="float: right;" src="<?php bloginfo('template_directory');?>/image/badge4.JPG" alt="">
+          <img style="float: right; width:20%" class="ml-2" src="<?php bloginfo('template_directory');?>/image/end_to_end/symbol4.png" alt="">
           <p class="features-text">
             Complementary NGS and Sanger
             services provide variant discovery-to-
@@ -225,26 +242,57 @@ get_header();
     </div>
     <div class="background-gray">
       <div class="container-fluid">
-        <div class="row inquire-wrapper p-3">
-          <div class="col-lg-3 col-md-6 col-sm-6 col-12">
-            <img class="img-responsive inquire-img" src="<?php bloginfo('template_directory');?>/image/covid_testing.JPG" alt="">
-          </div>
-          <div class="col-lg-3 col-md-6 col-sm-6 col-12">
-            <img class="img-responsive inquire-img" src="<?php bloginfo('template_directory');?>/image/screening.JPG" alt="">
-          </div>
-          <div class="col-lg-3 col-md-6 col-sm-6 col-12">
-            <img class="img-responsive inquire-img" src="<?php bloginfo('template_directory');?>/image/rare_diseases.JPG" alt="">
-          </div>
-          <div class="col-lg-3 col-md-6 col-sm-6 col-12">
-            <img class="img-responsive inquire-img" src="<?php bloginfo('template_directory');?>/image/customize.JPG" alt="">
-          </div>
-        </div>
+      <div class="row inquire-wrapper p-3">
+  <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+    <div class="card custom_square mb-2" style="">
+      <div class="square"
+        style=" background: #fff;     height: -webkit-fill-available; background-image: url('<?php bloginfo('template_directory');?>/image/end_to_end/covid_symbol.png') ;     background-position: center; background-size: contain; background-repeat: no-repeat;">
+      </div>
+      <div class="card-body p-0">
+        <h5 class="card-title" style="font-size: 1rem; font-weight: 700; margin-top: .75rem">Card title</h5>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+    <div class="card custom_square mb-2" style="">
+      <div class="square"
+        style=" background: #fff;     height: -webkit-fill-available; background-image: url('<?php bloginfo('template_directory');?>/image/end_to_end/population_screenig.png') ;     background-position: center; background-size: contain; background-repeat: no-repeat;">
+      </div>
+      <div class="card-body p-0">
+        <h5 class="card-title" style="font-size: 1rem; font-weight: 700; margin-top: .75rem">Popluation Screening</h5>
+      </div>
+    </div>
+
+  </div>
+  <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+    <div class="card custom_square mb-2" style="">
+      <div class="square"
+        style=" background: #fff;     height: -webkit-fill-available; background-image: url('<?php bloginfo('template_directory');?>/image/end_to_end/Rare_diseases.png') ;     background-position: center; background-size: contain; background-repeat: no-repeat;">
+      </div>
+      <div class="card-body p-0">
+        <h5 class="card-title" style="font-size: 1rem; font-weight: 700; margin-top: .75rem">Rare Diseases Dx</h5>
+      </div>
+    </div>
+
+  </div>
+  <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+    <div class="card custom_square mb-2" style="">
+      <div class="square"
+        style=" background: #fff;     height: -webkit-fill-available; background-image: url('<?php bloginfo('template_directory');?>/image/end_to_end/customized.png') ;     background-position: center; background-size: contain; background-repeat: no-repeat;">
+      </div>
+      <div class="card-body p-0">
+        <h5 class="card-title" style="font-size: 1rem; font-weight: 700; margin-top: .75rem">Customized</h5>
+      </div>
+    </div>
+
+  </div>
+</div>
       </div>
     </div>
   </section>
   <section class="content-container">
     <h2 class="content-title">
-      End-to-end solutions
+    Who is using our services
     </h2>
     <div class="row client">
       <div class="auto-feature-clients-start">

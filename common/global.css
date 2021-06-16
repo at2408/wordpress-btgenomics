@@ -132,7 +132,6 @@ body {
   }
 }
 
-
 @media (max-width: 992px) {
   .fix-position {
     min-height: 265px !important;
@@ -152,7 +151,6 @@ body {
   .fix-width {
     width: 90% !important;
   }
-
 }
 
 @media (max-width: 768px) {
@@ -395,7 +393,6 @@ p {
     font-size: 20px;
   }
 }
-
 
 [class~="wp-tm-theme-7"] [class~="basic-info"][class~="style_icon"] a {
   display: inline-block;
@@ -1229,7 +1226,6 @@ a {
   margin-bottom: 10px;
 }
 
-
 .card {
   display: inline-block;
   position: relative;
@@ -1237,7 +1233,8 @@ a {
   border-radius: 6px;
   color: rgba(0, 0, 0, 0.87);
   background: #fff;
-  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2),
+    0 1px 5px 0 rgba(0, 0, 0, 0.12);
   height: 100%;
 }
 
@@ -1265,9 +1262,9 @@ a {
 }
 
 .img-raised {
-  box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56),
+    0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
 }
-
 
 .card .table {
   padding: 15px 30px;
@@ -1279,18 +1276,17 @@ a {
   margin-bottom: 35px;
 }
 
-
 .card-blog {
   margin-top: 0px;
 }
-
 
 .card-blog .card-image + .category {
   margin-top: 20px;
 }
 
 .card-raised {
-  box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56),
+    0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
 }
 
 .card-caption {
@@ -1376,8 +1372,40 @@ a {
   }
 }
 
+.custom_square {
+  padding: 50px;
+  height: 250px;
+  width: 250px;
+}
 
+@media (max-width: 1200px) {
+  .custom_square {
+    padding: 50px;
+    height: 200px;
+    width: 200px;
+  }
+}
 
+@media (max-width: 992px) {
+  .custom_square {
+    padding: 50px;
+    height: 280px;
+    width: 280px;
+  }
+}
 
+@media (max-width: 768px) {
+  .custom_square {
+    padding: 50px;
+    height: 200px;
+    width: 200px;
+  }
+}
 
-
+@media (max-width: 576px) {
+  .custom_square {
+    padding: 50px;
+    height: 300px;
+    width: 300px;
+  }
+}

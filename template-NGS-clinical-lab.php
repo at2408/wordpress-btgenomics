@@ -221,23 +221,52 @@ get_header();
     </div>
     <div class="background-gray">
       <div class="container-fluid">
-        <div class="row inquire-wrapper p-3">
-          <div class="col-lg-3 col-md-6 col-sm-6 col-12">
-            <img class="inquire-img" src="<?php bloginfo('template_directory');?>/image/covid_testing.JPG" alt="">
-          </div>
-          <div class="col-lg-3 col-md-6 col-sm-6 col-12">
-            <img class="inquire-img" src="<?php bloginfo('template_directory');?>/image/screening.JPG" alt="">
-          </div>
-          <div class="col-lg-3 col-md-6 col-sm-6 col-12">
-            <img class="inquire-img" src="<?php bloginfo('template_directory');?>/image/rare_diseases.JPG" alt="">
-          </div>
-          <div class="col-lg-3 col-md-6 col-sm-6 col-12">
-            <img class="inquire-img" src="<?php bloginfo('template_directory');?>/image/customize.JPG" alt="">
-          </div>
-        </div>
+      <div class="row inquire-wrapper p-3">
+  <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+    <div class="card custom_square mb-2" style="">
+      <div class="square"
+        style=" background: #fff;     height: -webkit-fill-available; background-image: url('<?php bloginfo('template_directory');?>/image/NGS/whole_genome_symbol.png') ;     background-position: center; background-size: contain; background-repeat: no-repeat;">
       </div>
+      <div class="card-body p-0">
+        <h5 class="card-title" style="font-size: 1rem; font-weight: 700; margin-top: .75rem">Whole Genome</h5>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+    <div class="card custom_square mb-2" style="">
+      <div class="square"
+        style=" background: #fff;     height: -webkit-fill-available; background-image: url('<?php bloginfo('template_directory');?>/image/NGS/whole_exome_symbol.png') ;     background-position: center; background-size: contain; background-repeat: no-repeat;">
+      </div>
+      <div class="card-body p-0">
+        <h5 class="card-title" style="font-size: 1rem; font-weight: 700; margin-top: .75rem">Whole Exome</h5>
+      </div>
+    </div>
 
+  </div>
+  <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+    <div class="card custom_square mb-2" style="">
+      <div class="square"
+        style=" background: #fff;     height: -webkit-fill-available; background-image: url('<?php bloginfo('template_directory');?>/image/end_to_end/Rare_diseases.png') ;     background-position: center; background-size: contain; background-repeat: no-repeat;">
+      </div>
+      <div class="card-body p-0">
+        <h5 class="card-title" style="font-size: 1rem; font-weight: 700; margin-top: .75rem">Gene Panels</h5>
+      </div>
+    </div>
 
+  </div>
+  <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+    <div class="card custom_square mb-2" style="">
+      <div class="square"
+        style=" background: #fff;     height: -webkit-fill-available; background-image: url('<?php bloginfo('template_directory');?>/image/NGS/covid_symbol.png') ;     background-position: center; background-size: contain; background-repeat: no-repeat;">
+      </div>
+      <div class="card-body p-0">
+        <h5 class="card-title" style="font-size: 1rem; font-weight: 700; margin-top: .75rem">Covid-19 Dx</h5>
+      </div>
+    </div>
+
+  </div>
+</div>
+      </div>
     </div>
   </section>
   <section class="content-container">
