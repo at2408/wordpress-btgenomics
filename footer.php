@@ -46,7 +46,7 @@
             <div class="col-lg-3 col-10 fix-margin">
               <div style="margin-bottom: 20px; font-weight: bold; color: #2CACE3;">Map</div>
               <div>
-                <img src="<?php bloginfo('template_directory');?>/image/map.png" style="width: 100%;">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3320.8075024618506!2d-117.74484708494624!3d33.66214938071395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dcdd54759f81ef%3A0xf65dcfad0dd049ee!2sA%2C%2015375%20Barranca%20Pkwy%2C%20Irvine%2C%20CA%2092618%2C%20Hoa%20K%E1%BB%B3!5e0!3m2!1svi!2s!4v1623842556937!5m2!1svi!2s" width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
               </div>
             </div>
             <div class="col-lg-2 col-10 fix-margin">
