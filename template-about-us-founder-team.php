@@ -3,14 +3,14 @@
 get_header();
 ?>
 <section>
-        <nav style="position: absolute;" class="navbar navbar-light fixed-top content-container pt-0">
+        <nav style="position: absolute; display: inherit; top: 0; left: 0; z-index: 10; right: 0;" class="navbar navbar-light content-container pt-0">
           <div class="row" style="justify-content: space-between; padding-top: 1%;">
             <a href="<?php echo get_site_url(); ?>" class="navbar-brand col-lg-4 col-6">
-              <img class="img-fluid" src="<?php bloginfo('template_directory');?>/image/BTG_logo.png">
+              <img  class="img-fluid" src="<?php bloginfo('template_directory');?>/image/BTG_logo.png">
             </a>
             <div class="navbar-toggler col-lg-2 col-4" style="border: none; text-align: end;">
               <img src="<?php bloginfo('template_directory');?>/image/search_icon.png" style="width: 23%; padding-top: 20px;">&nbsp;&nbsp;
-              <img data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="width: 30%; padding-top: 20px;" src="<?php bloginfo('template_directory');?>/image/menu_lines.png">
+              <img data-toggle="collapse" class="nav-button" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="width: 30%; padding-top: 20px;" src="<?php bloginfo('template_directory');?>/image/menu_lines.png">
             </div>
           </div>
         </nav>
@@ -26,12 +26,12 @@ get_header();
               <div class="dropdown-menu fix-dropdown" aria-labelledby="navbarDropdownMenuLink">
                 <a href="<?php echo get_site_url(); ?>/about-us-mission-core" class="dropdown-item">Mission & Core Values</a>
                 <a href="<?php echo get_site_url(); ?>/about-us-founder-team" class="dropdown-item">Team Members</a>
-                <a class="dropdown-item">Partners</a>
-                <a class="dropdown-item">Lab Accreditations & Licenses</a>
+                <a href="#" class="dropdown-item">Partners</a>
+                <a href="#" class="dropdown-item">Lab Accreditations & Licenses</a>
               </div>
             </li>
             <li class="nav-item dropdown">
-              <a style="padding-left: 15px; padding-right: 15px;" class="nav-link dropdown-toggle" id="navbarDropdownMenuLink2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <a style="padding-left: 15px; padding-right: 15px; cursor: pointer;" class="nav-link dropdown-toggle" id="navbarDropdownMenuLink2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 End-to-End Solutions
               </a>
               <div class="dropdown-menu fix-dropdown" aria-labelledby="navbarDropdownMenuLink2">
@@ -39,7 +39,7 @@ get_header();
               </div>
             </li>
             <li class="nav-item dropdown">
-              <a style="padding-left: 15px; padding-right: 15px;" class="nav-link dropdown-toggle" id="navbarDropdownMenuLink3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <a style="padding-left: 15px; padding-right: 15px; cursor: pointer;" class="nav-link dropdown-toggle" id="navbarDropdownMenuLink3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 NGS Clinical Lab
               </a>
               <div class="dropdown-menu fix-dropdown" aria-labelledby="navbarDropdownMenuLink3">
@@ -47,19 +47,19 @@ get_header();
               </div>
             </li>
             <li class="nav-item dropdown">
-              <a style="padding-left: 15px; padding-right: 15px;" class="nav-link dropdown-toggle" id="navbarDropdownMenuLink3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <a style="padding-left: 15px; padding-right: 15px; cursor: pointer;" class="nav-link dropdown-toggle" id="navbarDropdownMenuLink3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Clinical Interpretation Services
               </a>
               <div class="dropdown-menu fix-dropdown" aria-labelledby="navbarDropdownMenuLink3">
-                <a class="dropdown-item">Team Members</a>
+                <a href="#" class="dropdown-item">Clinical Interpretation Services</a>
               </div>
             </li>
             <li class="nav-item dropdown">
-              <a style="padding-left: 15px; padding-right: 15px;" class="nav-link dropdown-toggle" id="navbarDropdownMenuLink4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <a style="padding-left: 15px; padding-right: 15px; cursor: pointer;" class="nav-link dropdown-toggle" id="navbarDropdownMenuLink4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Contact us
               </a>
               <div class="dropdown-menu fix-dropdown" aria-labelledby="navbarDropdownMenuLink4">
-                <a class="dropdown-item">Team Members</a>
+                <a href="#" class="dropdown-item">Contact us</a>
               </div>
             </li>
           </ul>
@@ -73,7 +73,7 @@ get_header();
                         style="background-image: url(<?php bloginfo('template_directory');?>/image/team_members_banner.png); background-repeat: no-repeat; background-size: cover; background-position: left; height: 550px;">
                         <div class="content-container pt-0">
                             <div class="fix-padding-top-banner" style="text-align: end; padding-top: 200px; padding-right: 20%">
-                                <div style="color: #fff; font-weight: 500; font-size: 45px; margin-bottom: 20px; text-shadow: 2px 2px #d5d5d5;">
+                                <div class="oxygen-font" style="color: #fff; font-weight: 500; font-size: 45px; margin-bottom: 20px; text-shadow: 2px 2px #d5d5d5;">
                                     Breakthrough Genomics. <br>
                                     We help you to break through the noise.
                                 </div>
