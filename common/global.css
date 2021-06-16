@@ -133,70 +133,6 @@ body {
   bottom: 15px;
 }
 
-@media (max-width: 1200px) {
-  .fix-position {
-    min-height: 140px !important;
-  }
-}
-
-@media (max-width: 1200px) {
-  .fix-position {
-    min-height: 140px !important;
-  }
-}
-
-
-@media (max-width: 992px) {
-  .fix-position {
-    min-height: 265px !important;
-  }
-  .fix-margin {
-    margin-bottom: 7%;
-  }
-  .fix-padding-title {
-    padding-bottom: 40px !important;
-  }
-  .fix-height {
-    height: 115px !important;
-  }
-  .img-width {
-    width: 60% !important;
-  }
-  .fix-width {
-    width: 90% !important;
-  }
-
-}
-
-@media (max-width: 768px) {
-  #covid-img {
-    width: 50%;
-    height: auto;
-  }
-  .img-width-2 {
-    width: 60% !important;
-    margin-bottom: 20px;
-  }
-  .fix-position {
-    min-height: 205px !important;
-  }
-  .fix-display {
-    display: block !important;
-  }
-  .fix-padding-top {
-    padding-top: 90px !important;
-  }
-  .fix-padding-top-2 {
-    padding-top: 170px !important;
-  }
-  .fix-margin-bottom {
-    margin-bottom: 60px;
-  }
-  .fix-padding-top-banner {
-    padding-top: 130px !important;
-  }
-}
-
 p {
   font-size: 18px;
 }
@@ -404,12 +340,6 @@ p {
 .info-text {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-}
-
-@media only screen and (max-width: 1200px) {
-  .grid-content {
-    font-size: 20px;
-  }
 }
 
 
@@ -1167,15 +1097,6 @@ p {
   color: #00d184;
 }
 
-@media (max-width: 767px) {
-  .wp-team-wrapper {
-    text-align: center;
-  }
-  .wp-team-wrapper li {
-    max-width: 300px;
-  }
-}
-
 .wp-team-wrapper {
   float: left;
   width: 100%;
@@ -1206,14 +1127,7 @@ a {
   margin-bottom: 10px;
 }
 
-@media (max-width: 767px) {
-  .wp-team-wrapper {
-    text-align: center;
-  }
-  .wp-team-wrapper li {
-    max-width: 300px;
-  }
-}
+
 
 .wp-team-wrapper {
   float: left;
@@ -1386,12 +1300,6 @@ a {
   }
 } */
 
-@media only screen and (max-width: 1024px) {
-  .inquire-title {
-    font-size: 14px;
-  }
-}
-
 .carousel-indicators .active {
   bottom: -7px;
   width: 50px;
@@ -1400,6 +1308,190 @@ a {
   background-color: #fff !important;
 }
 
+@media only screen and (max-width: 1024px) {
+  .inquire-title {
+    font-size: 14px;
+  }
+}
+
+
+@media (max-width: 1200px) {
+  .fix-position {
+    min-height: 140px !important;
+  }
+}
+
+@media (max-width: 1200px) {
+  .fix-position {
+    min-height: 140px !important;
+  }
+}
+
+
+@media (max-width: 992px) {
+  .fix-position {
+    min-height: 265px !important;
+  }
+  .fix-margin {
+    margin-bottom: 7%;
+  }
+  .fix-padding-title {
+    padding-bottom: 40px !important;
+  }
+  .fix-height {
+    height: 115px !important;
+  }
+  .img-width {
+    width: 60% !important;
+  }
+  .fix-width {
+    width: 90% !important;
+  }
+
+}
+
+@media (max-width: 768px) {
+  #covid-img {
+    width: 50%;
+    height: auto;
+  }
+  .img-width-2 {
+    width: 60% !important;
+    margin-bottom: 20px;
+  }
+  .fix-position {
+    min-height: 205px !important;
+  }
+  .fix-display {
+    display: block !important;
+  }
+  .fix-padding-top {
+    padding-top: 90px !important;
+  }
+  .fix-padding-top-2 {
+    padding-top: 170px !important;
+  }
+  .fix-margin-bottom {
+    margin-bottom: 60px;
+  }
+  .fix-padding-top-banner {
+    padding-top: 130px !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .wp-team-wrapper {
+    text-align: center;
+  }
+  .wp-team-wrapper li {
+    max-width: 300px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .grid-content {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  [class~="wp-tm-theme-7"] li {
+    width: 50%;
+  }
+}
+@media (max-width: 767px) {
+  [class~="wp-tm-theme-7"]
+    li[class~="even-row-counter"]
+    [class~="member-img-wrap"],
+  [class~="wp-tm-theme-7"] [class~="member-detail"],
+  .wp-tm-theme-7 .member-img-wrap {
+    width: 100%;
+  }
+  [class~="wp-tm-theme-7"] [class~="member-img-wrap"]:before,
+  [class~="wp-tm-theme-7"]
+    li[class~="even-row-counter"]
+    [class~="member-img-wrap"]:before {
+    content: " \25B2";
+  }
+  [class~="wp-tm-theme-7"] [class~="member-detail"],
+  [class~="wp-tm-theme-7"]
+    li[class~="even-row-counter"]
+    [class~="member-img-wrap"],
+  .wp-tm-theme-7 .member-img-wrap,
+  .wp-tm-theme-7 li {
+    float: none;
+  }
+  .wp-tm-theme-7 .member-img-wrap,
+  [class~="wp-tm-theme-7"]
+    li[class~="even-row-counter"]
+    [class~="member-img-wrap"],
+  [class~="wp-tm-theme-7"] [class~="member-detail"] {
+    position: relative;
+  }
+  .wp-tm-theme-7 li {
+    margin-left: auto !important;
+  }
+  [class~="wp-tm-theme-7"] [class~="member-img-wrap"]:before,
+  [class~="wp-tm-theme-7"]
+    li[class~="even-row-counter"]
+    [class~="member-img-wrap"]:before {
+    bottom: -20.25pt;
+  }
+  .wp-tm-theme-7 li {
+    margin-bottom: 1.25pc !important;
+  }
+  .wp-tm-theme-7 li {
+    margin-right: auto !important;
+  }
+  .wp-tm-theme-7 li {
+    margin-top: 0 !important;
+  }
+  [class~="wp-tm-theme-7"]
+    li[class~="even-row-counter"]
+    [class~="member-img-wrap"]:before,
+  [class~="wp-tm-theme-7"] [class~="member-img-wrap"]:before {
+    right: initial;
+  }
+  .wp-tm-theme-7 li {
+    padding-left: 0.9375pc;
+  }
+  [class~="wp-tm-theme-7"] [class~="member-detail"] {
+    transform: translateY(0%);
+  }
+  .wp-tm-theme-7 li {
+    padding-bottom: 0;
+  }
+  [class~="wp-tm-theme-7"] [class~="member-img-wrap"]:before,
+  [class~="wp-tm-theme-7"]
+    li[class~="even-row-counter"]
+    [class~="member-img-wrap"]:before {
+    top: initial;
+  }
+  [class~="wp-tm-theme-7"] [class~="member-detail"] {
+    padding-top: 0.104166667in;
+  }
+  .wp-tm-theme-7 li {
+    padding-right: 0.9375pc;
+  }
+  .wp-tm-theme-7 li {
+    padding-top: 0;
+  }
+  [class~="wp-tm-theme-7"]
+    li[class~="even-row-counter"]
+    [class~="member-img-wrap"]:before,
+  [class~="wp-tm-theme-7"] [class~="member-img-wrap"]:before {
+    left: initial;
+  }
+  .wp-tm-theme-7 li {
+    background: transparent !important;
+  }
+  .wp-tm-theme-7 li {
+    display: inline-block;
+  }
+  .wp-tm-theme-7 li {
+    vertical-align: top;
+  }
+}
 
 
 
