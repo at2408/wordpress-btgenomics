@@ -93,8 +93,8 @@ get_header();
         </td>
       </tr>
       <tr>
-        <td style="vertical-align: baseline; padding-top: 10px;">
-          <img src="<?php bloginfo('template_directory');?>/image/mission.JPG" alt="">
+        <td style="vertical-align: baseline; padding-top: 10px; width: 10%">
+          <img src="<?php bloginfo('template_directory');?>/image/mission.png" alt="" width="70%">
         </td>
         <td>
           <p class="table-content-text">
@@ -115,8 +115,8 @@ get_header();
         </td>
       </tr>
       <tr>
-        <td style="vertical-align: baseline; padding-top: 10px;">
-          <img src="<?php bloginfo('template_directory');?>/image/value.JPG" alt="">
+        <td style="vertical-align: baseline; padding-top: 10px; width: 10%">
+          <img src="<?php bloginfo('template_directory');?>/image/values.png" alt="" width="70%">
         </td>
         <td>
           <p class="table-content-text">

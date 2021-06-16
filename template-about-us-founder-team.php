@@ -178,8 +178,8 @@ get_header();
                 <li class="col-md-4 odd-row-counter" style="background-color: #24365e;">
                     <div id="info3" style="display: none;">
                         <div class="info-container" style="border-left: 5px solid #fff;">
-                            <h4>Laura Li</h4>
-                            <p class="job-info">Founder & CEO</p>
+                            <h4>Greg Roumeliotis</h4>
+                            <p class="job-info">VP<br>Business Development Director</p>
                             <p class="info-text">
                                 CV Summary......delays in diagnosis can lead
                                 to disease progress are diseases,
@@ -198,7 +198,7 @@ get_header();
                                 Medical Geneticist.
                             </p>
                             <p class="info-text">
-                                Contact details: LauraLi@BTGenomics.com
+                                Contact details: GregRoumeliotis@BTGenomics.com
                             </p>
                         </div>
                     </div>
@@ -208,15 +208,15 @@ get_header();
                         </a>
                     </div>
                     <div class="member-detail">
-                        <div class="member-name">Laura Li<span>Founder & CEO</span></div>
+                        <div class="member-name">Greg Roumeliotis<span>VP<br>Business Development Director</span></div>
 
                     </div>
                 </li>
                 <li class="col-md-4 even-row-counter" style="background-color: #24365e;">
                     <div id="info4" style="display: none;">
                         <div class="info-container">
-                            <h4>Laura Li</h4>
-                            <p class="job-info">Founder & CEO</p>
+                            <h4>Peter Johnson</h4>
+                            <p class="job-info">CFO & COO</p>
                             <p class="info-text">
                                 CV Summary......delays in diagnosis can lead
                                 to disease progress are diseases,
@@ -235,7 +235,7 @@ get_header();
                                 Medical Geneticist.
                             </p>
                             <p class="info-text">
-                                Contact details: LauraLi@BTGenomics.com
+                                Contact details: PeterJohnson@BTGenomics.com
                             </p>
                         </div>
                     </div>
@@ -289,8 +289,8 @@ get_header();
                 <li class="col-md-4 even-row-counter" style="background-color: #2cace3;">
                     <div id="info6" style="display: none;">
                         <div class="info-container">
-                            <h4>Laura Li</h4>
-                            <p class="job-info">Founder & CEO</p>
+                            <h4>Anna Flash</h4>
+                            <p class="job-info">Marketing Director</p>
                             <p class="info-text">
                                 CV Summary......delays in diagnosis can lead
                                 to disease progress are diseases,
@@ -309,7 +309,7 @@ get_header();
                                 Medical Geneticist.
                             </p>
                             <p class="info-text">
-                                Contact details: LauraLi@BTGenomics.com
+                                Contact details: AnnaFlash@BTGenomics.com
                             </p>
                         </div>
                     </div>
@@ -319,7 +319,7 @@ get_header();
                         </a>
                     </div>
                     <div class="member-detail">
-                        <div class="member-name">Laura Li<span>Founder & CEO</span></div>
+                        <div class="member-name">Anna Flash<span>Marketing Director</span></div>
 
                     </div>
                 </li>

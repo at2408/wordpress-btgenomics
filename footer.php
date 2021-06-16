@@ -24,7 +24,7 @@
                   <div><img class="icon-footer" src="<?php bloginfo('template_directory');?>/image/phone_icon.png"></div>
                   <div>
                     <div class="footer-color">Call us</div>
-                    <a class="link-style" href="tell:1-949-381-3794">1-949-381-3794</a>
+                    <a class="link-style" href="tel:1-949-381-3794">1-949-381-3794</a>
                   </div>
                 </div><br>
                 <div style="display: flex;">
