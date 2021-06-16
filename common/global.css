@@ -67,6 +67,18 @@ body {
   margin-bottom: 10px;
 }
 
+.footer-color {
+  color: #757d8e;
+}
+
+.link-style {
+  color:#ffffff;
+}
+
+.link-style:hover {
+  color: #ffffff;
+}
+
 .column {
   background: #fff;
   height: 100%;

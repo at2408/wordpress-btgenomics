@@ -23,21 +23,21 @@
                 <div style="display: flex;">
                   <div><img class="icon-footer" src="<?php bloginfo('template_directory');?>/image/phone_icon.png"></div>
                   <div>
-                    <div>Call us</div>
-                    <div>1-949-381-3794</div>
+                    <div class="footer-color">Call us</div>
+                    <a class="link-style" href="tell:1-949-381-3794">1-949-381-3794</a>
                   </div>
                 </div><br>
                 <div style="display: flex;">
                   <div><img class="icon-footer" src="<?php bloginfo('template_directory');?>/image/email_icon.png"></div>
                   <div>
-                    <div>Send us an email</div>
-                    <div>Info@BTGenomics.com</div>
+                    <div class="footer-color">Send us an email</div>
+                    <a class="link-style" href="mailto:info@btgenomics.com">Info@BTGenomics.com</a>
                   </div>
                 </div><br>
                 <div style="display: flex;">
                   <div><img class="icon-footer" src="<?php bloginfo('template_directory');?>/image/location_icon.png"></div>
                   <div>
-                    <div>Visit us</div>
+                    <div class="footer-color">Visit us</div>
                     <div>15375 Barranca, Pkwy Irvince CA 92618</div>
                   </div>
                 </div>
@@ -52,16 +52,16 @@
             <div class="col-lg-2 col-10 fix-margin">
               <div style="margin-bottom: 20px; font-weight: bold; color: #2CACE3;">About us</div>
               <div style="font-size: 16px; font-weight: 600;">
-                <div>About us</div>
-                <div>Covid test</div>
-                <div>Clinical Genomics</div>
-                <div>Providers</div>
-                <div>Clinical Labs</div>
-                <div>Clinical Interpretation</div>
-                <div>Services</div>
-                <div>Partners</div>
-                <div>Lab Accreditations</div>
-                <div>Legal Privacy</div>
+                <div><a class="link-style" href="">About us</a></div>
+                <div><a class="link-style" href="">Covid test</a></div>
+                <div><a class="link-style" href="">Clinical Genomics</a></div>
+                <div><a class="link-style" href="">Providers</a></div>
+                <div><a class="link-style" href="">Clinical Labs</a></div>
+                <div><a class="link-style" href="">Clinical Interpretation</a></div>
+                <div><a class="link-style" href="">Services</a></div>
+                <div><a class="link-style" href="">Partners</a></div>
+                <div><a class="link-style" href="">Lab Accreditations</a></div>
+                <div><a class="link-style" href="">Legal Privacy</a></div>
               </div>
             </div>
             <div class="col-lg-2 col-10 fix-margin">
@@ -82,29 +82,29 @@
                 <div style="display: flex;">
                   <div><img class="icon-footer2" src="<?php bloginfo('template_directory');?>/image/facebook_icon.png"></div>
                   <div>
-                    <div>Facebook</div>
-                    <div>www.facebook.com/...</div>
+                    <div class="footer-color">Facebook</div>
+                    <a class="link-style" href="#">www.facebook.com/...</a>
                   </div>
                 </div><br>
                 <div style="display: flex;">
                   <div><img class="icon-footer2" src="<?php bloginfo('template_directory');?>/image/twitter_icon.png"></div>
                   <div>
-                    <div>Twitter</div>
+                    <div class="footer-color">Twitter</div>
                     <div>#BTGenomics</div>
                   </div>
                 </div><br>
                 <div style="display: flex;">
                   <div><img class="icon-footer2" src="<?php bloginfo('template_directory');?>/image/linkedin_icon.png"></div>
                   <div>
-                    <div>LinkedIn</div>
-                    <div>www.linkedin.com/...</div>
+                    <div class="footer-color">LinkedIn</div>
+                    <a class="link-style" href="#">www.linkedin.com/...</a>
                   </div>
                 </div>
               </div>
             </div>
           </div>
           <div class="row">
-            <div style="margin-bottom: 50px; font-weight: bold; color: #2CACE3;">www.BTGenomics.com</div>
+            <a style="margin-bottom: 50px; font-weight: bold; color: #2CACE3;" href="https://btgenomics.com/">www.BTGenomics.com</a>
           </div>
         </div>
       </div>

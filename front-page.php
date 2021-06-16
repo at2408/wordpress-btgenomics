@@ -169,7 +169,7 @@
                           <p> We perform an FDA-authorized COVID-19 test (mycovscan) from respiratory swabs 
                             or saliva samples. Results are available within 24h.  </p>
                           <div style="font-size: 16px; color: #2CACE3" class="fix-bottom">
-                            Explore all our Turn-Key Solutions
+                            <a href="" style="color: #2CACE3">Explore all our Turn-Key Solutions</a>
                             <span><img src="<?php bloginfo('template_directory');?>/image/arrow2.png" style="width: 25px;"></span>
                           </div>
                       </div>
@@ -188,7 +188,7 @@
                             a convenient and fast way to extend your in-house resources for WGS, WES, and 
                             other tests. </p>
                           <div style="font-size: 16px; color: #2CACE3" class="fix-bottom">
-                            Explore all our Clinical Lab Services
+                            <a href="" style="color: #2CACE3">Explore all our Clinical Lab Services</a>
                             <span><img src="<?php bloginfo('template_directory');?>/image/arrow2.png" style="width: 25px;"></span>
                           </div>
                       </div>
@@ -206,7 +206,7 @@
                           <p> We strongly believe that every care team can offer a seamless Precision Medicine 
                             experience to their patients. </p>
                           <div style="font-size: 16px; color: #2CACE3" class="fix-bottom">
-                            Explore BTG SaaS
+                            <a href="" style="color: #2CACE3">Explore BTG SaaS</a>
                             <span><img src="<?php bloginfo('template_directory');?>/image/arrow2.png" style="width: 25px;"></span>
                           </div>
                       </div>
@@ -234,16 +234,18 @@
                   </div>
                   <div class="col-10 col-lg-8" style="font-size: 16px; text-align: justify;">
                     <div>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                      Entrepreneuarial vision with amazing technica vision with amazing technical expertise Entrepreneuarial vision with technical expertise.
                     </div><br>
                     <div style="color: #C64C9C;">
-                      Contrary to popular belief, Lorem Ipsum
+                    Entrepreneuarial vision with technical expertise.
                     </div>
                     <div>
                       <img src="<?php bloginfo('template_directory');?>/image/lady.png" style="width: 80%; height: auto;">
                     </div>
-                    <div style="color: #C64C9C; text-align: end;">
-                      > Read more
+                    <div style="text-align: end; margin-top:15px">
+                      <a href="#" style="color: #C64C9C;">
+                        > Read more
+                      </a>
                     </div>
                   </div>
                 </div>
