@@ -8,9 +8,7 @@
   src: url("../fonts/Oxygen-Bold.ttf") format("truetype");
 }
 
-*,
-*::before,
-*::after {
+* {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   font-family: Helvetica;
@@ -163,6 +161,9 @@ body {
   }
   .fix-width {
     width: 90% !important;
+  }
+  .set-width-100 {
+    width: 100% !important;
   }
 }
 
@@ -1593,4 +1594,39 @@ a {
     height: 300px;
     width: 300px;
   }
+}
+
+.style-button {
+  font-size: 25px;
+  border-radius: 20px;
+  font-weight: bolder;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.column hr {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+ul.breadcrumb {
+  list-style: none;
+  background-color: #646C93;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+ul.breadcrumb li {
+  display: inline;
+  font-size: 18px;
+}
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: #fff;
+  content: ">\00a0";
+}
+ul.breadcrumb li a {
+  text-decoration: none;
+}
+ul.breadcrumb li a:hover {
+  text-decoration: underline;
 }

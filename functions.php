@@ -4,14 +4,12 @@ function demo_include_bootstrap()
     wp_register_style('bootstrap','https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css');
     wp_enqueue_style('bootstrap');
 
-    wp_register_style('font','https://kit.fontawesome.com/a3ac0b4b84.js');
+    wp_register_style('font','https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css');
     wp_enqueue_style('font');
 
     wp_register_style('styles', get_template_directory_uri() . '/common/global.css', array(), 1, 'all');
     wp_enqueue_style('styles');
 
-    wp_register_style('styles', get_template_directory_uri() . '/common/theme.css', array(), 1, 'all');
-    wp_enqueue_style('styles');
     
 
 }

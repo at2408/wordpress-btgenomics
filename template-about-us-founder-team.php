@@ -9,8 +9,8 @@ get_header();
               <img  class="img-fluid" src="<?php bloginfo('template_directory');?>/image/BTG_logo.png">
             </a>
             <div class="navbar-toggler col-lg-2 col-4" style="border: none; text-align: end;">
-              <img src="<?php bloginfo('template_directory');?>/image/search_icon.png" style="width: 23%; padding-top: 20px;">&nbsp;&nbsp;
-              <img data-toggle="collapse" class="nav-button" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="width: 30%; padding-top: 20px;" src="<?php bloginfo('template_directory');?>/image/menu_lines.png">
+              <img src="<?php bloginfo('template_directory');?>/image/search_icon.png" style="width: 18%; padding-top: 20px;">&nbsp;&nbsp;
+              <img data-toggle="collapse" class="nav-button" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="width: 20%; padding-top: 20px;" src="<?php bloginfo('template_directory');?>/image/menu_lines.png">
             </div>
           </div>
         </nav>
@@ -51,7 +51,7 @@ get_header();
                 Clinical Interpretation Services
               </a>
               <div class="dropdown-menu fix-dropdown" aria-labelledby="navbarDropdownMenuLink3">
-                <a href="#" class="dropdown-item">Clinical Interpretation Services</a>
+                <a href="<?php echo get_site_url(); ?>/clinical-interpretation-services" class="dropdown-item">Clinical Interpretation Services</a>
               </div>
             </li>
             <li class="nav-item dropdown">
@@ -70,12 +70,14 @@ get_header();
             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active"
-                        style="background-image: url(<?php bloginfo('template_directory');?>/image/team_members_banner.png); background-repeat: no-repeat; background-size: cover; background-position: left; height: 550px;">
+                        style="background-image: url(<?php bloginfo('template_directory');?>/image/team_members_banner.png); background-repeat: no-repeat; background-size: cover; background-position: inherit; height: 550px;">
                         <div class="content-container pt-0">
-                            <div class="fix-padding-top-banner" style="text-align: end; padding-top: 200px; padding-right: 20%">
-                                <div class="oxygen-font" style="color: #fff; font-weight: 500; font-size: 45px; margin-bottom: 20px; text-shadow: 2px 2px #d5d5d5;">
-                                    Breakthrough Genomics. <br>
-                                    We help you to break through the noise.
+                            <div class="fix-padding-top-banner" style="padding-top: 200px;">
+                                <div class="oxygen-font" style="font-size: 45px;">
+                                    Founders & Team Members
+                                </div>
+                                <div class="set-width-100" style="margin-right: 0; margin-left: auto; width: 35%; font-weight: 500;">
+                                We collaborate with clinical teams across different care environments to design and create a unique experience for everyone who is looking for a high-quality, scalable solution in clinical genomics. 
                                 </div>
                             </div>
                         </div>
@@ -84,7 +86,14 @@ get_header();
             </div>
         </div>
     </section>
-
+    <section style="position: relative">
+      <div style="position: absolute; top: -11px; left: 5%;">
+        <ul class="breadcrumb">
+          <li><a style="color: #fff" href="#">About us</a></li>
+          <li><a style="color: #2CACE3" href="#">Team Members</a></li>
+        </ul>
+      </div>
+    </section>
     <section class="content-container">
         <h2 class="content-title">
             Founders & Team Members
