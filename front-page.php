@@ -6,8 +6,8 @@
               <img  class="img-fluid" src="<?php bloginfo('template_directory');?>/image/BTG_logo_white.png">
             </a>
             <div class="navbar-toggler col-lg-2 col-4" style="border: none; text-align: end;">
-              <img src="<?php bloginfo('template_directory');?>/image/search_icon.png" style="width: 23%; padding-top: 20px;">&nbsp;&nbsp;
-              <img data-toggle="collapse" class="nav-button" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="width: 30%; padding-top: 20px;" src="<?php bloginfo('template_directory');?>/image/menu_lines.png">
+              <img src="<?php bloginfo('template_directory');?>/image/search_icon.png" style="width: 18%; padding-top: 20px;">&nbsp;&nbsp;
+              <img data-toggle="collapse" class="nav-button" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="width: 20%; padding-top: 20px;" src="<?php bloginfo('template_directory');?>/image/menu_lines.png">
             </div>
           </div>
         </nav>
@@ -48,7 +48,7 @@
                 Clinical Interpretation Services
               </a>
               <div class="dropdown-menu fix-dropdown" aria-labelledby="navbarDropdownMenuLink3">
-                <a href="#" class="dropdown-item">Clinical Interpretation Services</a>
+                <a href="<?php echo get_site_url(); ?>/clinical-interpretation-services" class="dropdown-item">Clinical Interpretation Services</a>
               </div>
             </li>
             <li class="nav-item dropdown">

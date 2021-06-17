@@ -10,8 +10,8 @@ get_header();
               <img class="img-fluid" src="<?php bloginfo('template_directory');?>/image/BTG_logo_white.png">
             </a>
             <div class="navbar-toggler col-lg-2 col-4" style="border: none; text-align: end;">
-              <img src="<?php bloginfo('template_directory');?>/image/search_icon.png" style="width: 23%; padding-top: 20px;">&nbsp;&nbsp;
-              <img data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="width: 30%; padding-top: 20px;" src="<?php bloginfo('template_directory');?>/image/menu_lines.png">
+              <img src="<?php bloginfo('template_directory');?>/image/search_icon.png" style="width: 18%; padding-top: 20px;">&nbsp;&nbsp;
+              <img data-toggle="collapse" class="nav-button" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="width: 20%; padding-top: 20px;" src="<?php bloginfo('template_directory');?>/image/menu_lines.png">
             </div>
           </div>
         </nav>
@@ -52,7 +52,7 @@ get_header();
                 Clinical Interpretation Services
               </a>
               <div class="dropdown-menu fix-dropdown" aria-labelledby="navbarDropdownMenuLink3">
-                <a class="dropdown-item">Team Members</a>
+                <a href="<?php echo get_site_url(); ?>/clinical-interpretation-services" class="dropdown-item">Clinical Interpretation Services</a>
               </div>
             </li>
             <li class="nav-item dropdown">
@@ -147,9 +147,16 @@ get_header();
             </div>
         </div>
     </section>
-
-    <section class="content-container-gray">
-    <h2 style="margin-bottom: 25px;" class="content-title fix-center">
+  <section style="position: relative">
+    <div style="position: absolute; top: -11px; left: 5%;">
+      <ul class="breadcrumb">
+        <li><a style="color: #fff" href="#">About us</a></li>
+        <li><a style="color: #2CACE3" href="#">End-to-End Solutions</a></li>
+      </ul>
+    </div>
+  </section>
+  <section class="content-container-gray">
+    <h2 class="content-title">
       End-to-end Solutions
     </h2>
     <div class="end-to-end-container pb-5">
