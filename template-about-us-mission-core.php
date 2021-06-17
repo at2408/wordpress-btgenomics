@@ -88,13 +88,14 @@ get_header();
   <section class="content-container">
     <table>
       <tr>
-        <td colspan="2" style="color: #2CACE3; font-weight: bold; font-size: 24px;">
+        <td style="text-align: center; color: #2CACE3; font-weight: bold; font-size: 24px;">
           MISSION
         </td>
+        <td></td>
       </tr>
       <tr>
-        <td style="vertical-align: baseline; padding-top: 10px; width: 10%">
-          <img src="<?php bloginfo('template_directory');?>/image/mission.png" alt="" width="70%">
+        <td style="text-align: center; vertical-align: baseline; padding-top: 10px; width: 10%">
+          <img src="<?php bloginfo('template_directory');?>/image/mission.png" alt="" width="80%">
         </td>
         <td>
           <p class="table-content-text">
@@ -110,13 +111,14 @@ get_header();
         </td>
       </tr>
       <tr>
-        <td colspan="2" style="color: #2CACE3; font-weight: bold; font-size: 24px;">
+        <td style="text-align: center; color: #2CACE3; font-weight: bold; font-size: 24px;">
           VALUES
         </td>
+        <td></td>
       </tr>
       <tr>
-        <td style="vertical-align: baseline; padding-top: 10px; width: 10%">
-          <img src="<?php bloginfo('template_directory');?>/image/values.png" alt="" width="70%">
+        <td style="text-align: center; vertical-align: baseline; padding-top: 10px; width: 10%">
+          <img src="<?php bloginfo('template_directory');?>/image/values.png" alt="" width="80%">
         </td>
         <td>
           <p class="table-content-text">
@@ -128,7 +130,7 @@ get_header();
         </td>
       </tr>
     </table>
-    <p class="content-text">
+    <p class="content-text mt-5">
       We collaborate with clinical teams across different care environments to design and create a unique
       experience for everyone who is looking for a high-quality, scalable solution in clinical genomics.
     </p>
