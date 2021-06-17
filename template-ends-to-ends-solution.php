@@ -172,6 +172,36 @@ get_header();
         </div>
       </div>
     </div>
+    
+        <div class="step-container pb-4">
+            <div class="step-item">
+                <img style="width: 100%;" src="<?php bloginfo('template_directory');?>/image/end_to_end/arrows_magenta.png" alt="step 1">
+            </div>
+            <div class="step-item">
+                <img style="width: 100%;" src="<?php bloginfo('template_directory');?>/image/end_to_end/arrow1.png" alt="step 1">
+            </div>
+             <div class="step-item">
+                <img style="width: 100%;" src="<?php bloginfo('template_directory');?>/image/end_to_end/arrow2.png" alt="step 1">
+            </div>
+             <div class="step-item">
+                <img style="width: 100%;" src="<?php bloginfo('template_directory');?>/image/end_to_end/arrow3.png" alt="step 1">
+            </div>
+             <div class="step-item">
+                <img style="width: 100%;" src="<?php bloginfo('template_directory');?>/image/end_to_end/arrow4.png" alt="step 1">
+            </div>
+             <div class="step-item">
+                <img style="width: 100%;" src="<?php bloginfo('template_directory');?>/image/end_to_end/arrow5.png" alt="step 1">
+            </div>
+             <div class="step-item">
+                <img style="width: 100%;" src="<?php bloginfo('template_directory');?>/image/end_to_end/arrow6.png" alt="step 1">
+            </div>
+             <div class="step-item">
+                <img style="width: 100%;" src="<?php bloginfo('template_directory');?>/image/end_to_end/arrow7.png" alt="step 1">
+            </div>
+             <div class="step-item">
+                <img style="width: 100%;" src="<?php bloginfo('template_directory');?>/image/end_to_end/arrow8.png" alt="step 1">
+            </div>
+        </div>
   </section>
   <section class="content-container">
     <h2 class="content-title-blue">

@@ -1557,6 +1557,17 @@ a {
   }
 }
 
+.step-container {
+  display: flex;
+}
+
+@media (max-width: 800px) {
+  .step-container {
+    /* flex-direction: column; */
+    display: none;
+  }
+}
+
 @media (max-width: 2000px) {
   .custom_square {
     padding: 50px;
