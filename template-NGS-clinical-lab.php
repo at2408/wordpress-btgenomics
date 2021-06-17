@@ -96,18 +96,18 @@ get_header();
     <div class="end-to-end-container pb-5">
       <div class="row justify-content-center">
         <div class="col-lg-8 col-md-7 col-10">
-          <p style="text-align: justify; padding-right: 15px" class="content-text">
+          <p style="text-align: justify" class="content-text pr-md-3">
           Our clinical lab is CLIA certified by The Centers for Medicare & Medicaid Services (CMS) and accredited by the College of American Pathologists (CAP) for clinical NGS and Sanger sequencing, and we are routinely instepcted by CAP for accrediations renewal. Our commitment to providing reliable, cost-effective services and high-quality results remain paramount for our CLIA service portfolio.<br><br>
           We treat all customer information study-related data, and intellectual propery, with the same degree of care and security that we do for our own. This allows our customers at both top-tier pharmaceutical companies and biothechnology start-ups the flexibility to utilize our regulatore services, while trusting in our commitment to quality and communication.
           </p>
         </div>
-        <div class="col-lg-4 col-md-5 col-10" style="background-image: url(<?php bloginfo('template_directory');?>/image/covid_sequencing.png); background-repeat: no-repeat; background-size: cover; background-position: center; height: 260px;">
+        <div class="col-lg-4 col-md-5 col-10" style="background-image: url(<?php bloginfo('template_directory');?>/image/covid_sequencing.png); background-repeat: no-repeat; background-size: cover; background-position: center; height: 260px; border-radius: 15px;">
           <div style="color: #fff; font-weight: 500; font-size: 23px; padding-left: 15px; padding-top: 37px">
             High-throughput
             <div style="font-size: 30px; color: #C64C9C;">COVID-19 Sequencing</div>
             & Surveillance
-            <div style="color: #2CACE3; margin-top: 10px">Learn more
-            <span><img src="<?php bloginfo('template_directory');?>/image/arrow_banner.png" style="width: 40px;"></span>
+            <div style="margin-top: 10px"><a href="#" style="color: #2CACE3;">Learn more
+            <span><img src="<?php bloginfo('template_directory');?>/image/arrow_banner.png" style="width: 40px;"></span></a> 
             </div>
           </div>
         </div>
@@ -120,8 +120,8 @@ get_header();
     </h2>
     <div class="row">
       <div class="col-md-6">
-        <div class="clearfix">
-          <img style="float: right;" src="<?php bloginfo('template_directory');?>/image/badge1.JPG" alt="">
+        <div class="clearfix mt-5">
+          <img style="float: right; width:15%" class="ml-3" src="<?php bloginfo('template_directory');?>/image/end_to_end/symbol1.png" alt="">
           <p class="features-text">
             Superior data quality that exceeds
             manufacturer's benchmarks
@@ -129,8 +129,8 @@ get_header();
         </div>
       </div>
       <div class="col-md-6">
-        <div class="clearfix">
-          <img style="float: right;" src="<?php bloginfo('template_directory');?>/image/badge2.JPG" alt="">
+        <div class="clearfix mt-5">
+          <img style="float: right; width:11%" class="ml-3" src="<?php bloginfo('template_directory');?>/image/end_to_end/symbol3.png" alt="">
           <p class="features-text">
             Custom CLIA Validations to support
             specific clinical trials
@@ -140,8 +140,8 @@ get_header();
     </div>
     <div class="row mt-2">
       <div class="col-md-6">
-        <div class="clearfix">
-          <img style="float: right;" src="<?php bloginfo('template_directory');?>/image/badge3.JPG" alt="">
+        <div class="clearfix mt-5">
+          <img style="float: right; width:15%" class="ml-3" src="<?php bloginfo('template_directory');?>/image/end_to_end/symbol2.png" alt="">
           <p class="features-text">
             Ph.D.-level support during the entire
             project, including free consultations
@@ -149,8 +149,8 @@ get_header();
         </div>
       </div>
       <div class="col-md-6">
-        <div class="clearfix">
-          <img style="float: right;" src="<?php bloginfo('template_directory');?>/image/badge4.JPG" alt="">
+        <div class="clearfix mt-5">
+          <img style="float: right; width:14%" class="ml-3" src="<?php bloginfo('template_directory');?>/image/end_to_end/symbol4.png" alt="">
           <p class="features-text">
             Complementary NGS and Sanger
             services provide variant discovery-to-
@@ -162,18 +162,18 @@ get_header();
   </section>
   <section class="content-container">
     <div class="background-pink">
-      <h4 class="m-0 inquire-title">Inquire about custom CLIA validations for specific arrays or sample types</h4>
+    <h4 class="m-0 inquire-title">Inquire about custom CLIA validations for specific arrays or sample types <span><img src="<?php bloginfo('template_directory');?>/image/end_to_end/white_Arrow.png" style="width: 40px;"></span> </h4>
     </div>
     <div class="background-gray">
       <div class="container-fluid">
-      <div class="row inquire-wrapper p-3">
+      <div class="row inquire-wrapper" style="padding: 2% 0%">
   <div class="col-lg-3 col-md-6 col-sm-6 col-12">
     <div class="card custom_square mb-2" style="">
       <div class="square"
         style=" background: #fff;     height: -webkit-fill-available; background-image: url('<?php bloginfo('template_directory');?>/image/NGS/whole_genome_symbol.png') ;     background-position: center; background-size: contain; background-repeat: no-repeat;">
       </div>
       <div class="card-body p-0">
-        <h5 class="card-title" style="font-size: 1rem; font-weight: 700; margin-top: .75rem">Whole Genome</h5>
+        <h5 class="card-title" style="font-size: 1rem; font-weight: 700; margin-top: .75rem; color: #c64c9c">Whole Genome</h5>
       </div>
     </div>
   </div>
@@ -183,7 +183,7 @@ get_header();
         style=" background: #fff;     height: -webkit-fill-available; background-image: url('<?php bloginfo('template_directory');?>/image/NGS/whole_exome_symbol.png') ;     background-position: center; background-size: contain; background-repeat: no-repeat;">
       </div>
       <div class="card-body p-0">
-        <h5 class="card-title" style="font-size: 1rem; font-weight: 700; margin-top: .75rem">Whole Exome</h5>
+        <h5 class="card-title" style="font-size: 1rem; font-weight: 700; margin-top: .75rem; color: #c64c9c">Whole Exome</h5>
       </div>
     </div>
 
@@ -194,7 +194,7 @@ get_header();
         style=" background: #fff;     height: -webkit-fill-available; background-image: url('<?php bloginfo('template_directory');?>/image/end_to_end/Rare_diseases.png') ;     background-position: center; background-size: contain; background-repeat: no-repeat;">
       </div>
       <div class="card-body p-0">
-        <h5 class="card-title" style="font-size: 1rem; font-weight: 700; margin-top: .75rem">Gene Panels</h5>
+        <h5 class="card-title" style="font-size: 1rem; font-weight: 700; margin-top: .75rem; color: #c64c9c">Gene Panels</h5>
       </div>
     </div>
 
@@ -205,7 +205,7 @@ get_header();
         style=" background: #fff;     height: -webkit-fill-available; background-image: url('<?php bloginfo('template_directory');?>/image/NGS/covid_symbol.png') ;     background-position: center; background-size: contain; background-repeat: no-repeat;">
       </div>
       <div class="card-body p-0">
-        <h5 class="card-title" style="font-size: 1rem; font-weight: 700; margin-top: .75rem">Covid-19 Dx</h5>
+        <h5 class="card-title" style="font-size: 1rem; font-weight: 700; margin-top: .75rem; color: #c64c9c">Covid-19 Dx</h5>
       </div>
     </div>
 
