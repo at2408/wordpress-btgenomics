@@ -74,8 +74,8 @@ get_header();
                         <div class="content-container pt-0">
                             <div class="fix-padding-top-banner" style="text-align: end; padding-top: 200px; padding-right: 20%">
                                 <div class="oxygen-font" style="color: #fff; font-weight: 500; font-size: 45px; margin-bottom: 20px;">
-                                    Breakthrough Genomics. <br>
-                                    We help you to break through the noise.
+                                    Breakthrough Genomics <br>
+                                    We help you to break through the noise
                                 </div>
                             </div>
                         </div>

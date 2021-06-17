@@ -69,81 +69,19 @@ get_header();
     <section>
         <div>
             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators">
-                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                </ol>
                 <div class="carousel-inner">
                     <div class="carousel-item active"
-                        style="background-image: url(<?php bloginfo('template_directory');?>/image/banner1.png); background-repeat: no-repeat; background-size: cover; background-position: center; height: 500px;">
+                        style="background-image: url(<?php bloginfo('template_directory');?>/image/end-to-end_solutions_banner.png); background-repeat: no-repeat; background-size: cover; background-position: left; height: 550px;">
                         <div class="content-container pt-0">
-                            <div style="text-align: end; padding-top: 130px;">
-                                <div style="margin-bottom: 20px;">
-                                    <img class="img-width" src="<?php bloginfo('template_directory');?>/image/mycovscan_logo.png" style="width: 33%;">
-                                </div>
-                                <div style="color: #fff; font-weight: 500; font-size: 35px; margin-bottom: 20px;">
-                                    COVID-19 Testing <br>
-                                    through Breakthrough Genomics
-                                </div>
-                                <div style="color: #C64C9C;">
-                                    EXPLORE ALL OUR TURN-KEY SOLUTIONS
-                                    <span><img src="<?php bloginfo('template_directory');?>/image/arrow_magenta.png" style="width: 40px;"></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item"
-                        style="background-image: url(<?php bloginfo('template_directory');?>/image/banner2.png); background-repeat: no-repeat; background-size: cover; background-position: center; height: 500px;">
-                        <div class="content-container pt-0">
-                            <div class="fix-width"
-                                style="padding-top: 130px; width: 35%; margin-left: auto; margin-right: 0;">
-                                <div style="margin-bottom: 20px; font-size: 40px; font-weight: 500;">
-                                    Diagnose accurately.<br>
-                                    Care better
-                                </div>
-                                <div style="color: #C64C9C; margin-bottom: 20px;">
-                                    END THE DISEASE DIAGNOSIS <br>
-                                    FOR PATIENTS IN ONE STEP<span><img src="<?php bloginfo('template_directory');?>/image/arrow_magenta.png"
-                                            style="width: 40px;"></span>
-                                </div>
-                                <div style="color: #2CACE3; text-align: end;">
-                                    <span><img src="<?php bloginfo('template_directory');?>/image/arrow_blue.png" style="width: 40px;"></span>
-                                    SCHEDULE CONSULT
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item"
-                        style="background-image: url(<?php bloginfo('template_directory');?>/image/virtual_geneticist_banner.png); background-repeat: no-repeat; background-size: cover; background-position: center; height: 500px;">
-                        <div class="content-container pt-0">
-                            <div class="fix-padding-top" style="padding-top: 160px;">
-                                <div class="fix-display mb-md-3" style="display: flex;">
-                                    <img class="img-width-2" src="<?php bloginfo('template_directory');?>/image/virtual_geneticist_logo.png"
-                                        style="width: 30%; ">&nbsp;&nbsp;&nbsp;
-                                    <div style="font-weight: 600; font-size: 35px;">
-                                        One platform.<br>
-                                        Many Applications<br>
-                                        tailored to your needs
-                                    </div>
-                                </div>
-                                <div style="color: #C64C9C;">
-                                    CONNECT YOUR GENOMIC EXPERTS TO BTG PLAFORM<br>
-                                    TO STREAMLINE LAB TO CLINIC REPORTING
-                                    <span><img src="<?php bloginfo('template_directory');?>/image/arrow_magenta.png" style="width: 40px;"></span>
+                          <div class="oxygen-font" style="padding-top: 300px;">
+                                <div style="color: #fff; font-weight: 500; font-size: 45px; margin-bottom: 20px;">
+                                    END-TO-END SOLUTIONS <br>
+                                    Be agile and efficient
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                </a>
             </div>
         </div>
     </section>
