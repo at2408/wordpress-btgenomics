@@ -73,7 +73,7 @@ body {
 }
 
 .link-style {
-  color:#ffffff;
+  color: #ffffff;
 }
 
 .link-style:hover {
@@ -406,7 +406,6 @@ p {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
-
 
 [class~="wp-tm-theme-7"] [class~="basic-info"][class~="style_icon"] a {
   display: inline-block;
@@ -1192,8 +1191,6 @@ a {
   margin-bottom: 10px;
 }
 
-
-
 .wp-team-wrapper {
   float: left;
   width: 100%;
@@ -1396,7 +1393,6 @@ a {
   }
 }
 
-
 @media (max-width: 992px) {
   .fix-position {
     min-height: 265px !important;
@@ -1416,7 +1412,6 @@ a {
   .fix-width {
     width: 90% !important;
   }
-
 }
 
 @media (max-width: 768px) {
@@ -1562,6 +1557,22 @@ a {
   }
 }
 
+@media (max-width: 2000px) {
+  .custom_square {
+    padding: 50px;
+    height: 300px;
+    width: 300px;
+  }
+}
+
+@media (max-width: 1400px) {
+  .custom_square {
+    padding: 50px;
+    height: 250px;
+    width: 250px;
+  }
+}
+
 @media (max-width: 1200px) {
   .custom_square {
     padding: 50px;
@@ -1577,7 +1588,6 @@ a {
     width: 280px;
   }
 }
-
 
 @media (max-width: 768px) {
   .custom_square {
